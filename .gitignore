@@ -37,6 +37,14 @@ yarn-error.log
 testem.log
 /typings
 __screenshots__/
+dist/
+out-tsc/
+src/environments/*.local.ts
+.angular/
+
+
+*.tmp
+*.temp
 
 # System files
 .DS_Store

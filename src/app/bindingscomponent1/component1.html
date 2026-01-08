@@ -1,0 +1,13 @@
+<p>component1 works!</p>
+<p style="color:blue;font-size: 20px;">component1 works</p>
+<p [style.color]="s1" [style.font-size]="s2">second para</p>
+
+<div class="d1 d2">I am div 1</div>
+<div [class]="c1">I am from second div</div>
+
+<button (click)="changeV1()">change v1</button>
+<button (click)="readV1()">read v1</button>
+
+<!-- Two-way binding -->
+<input [(ngModel)]="v1" type="number"/> <br/>
+<p>Value of v1: {{ v1 }}</p>
