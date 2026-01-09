@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-directivescomponent2',
  template: `
     <h3>Languages List</h3>
-    <ul>
+   <ul>
       <li *ngFor="let lang of languages; let i = index">
-        {{ i + 1 }}. {{ lang }}
+        {{ i }} - {{ lang }}
       </li>
     </ul>
   `
